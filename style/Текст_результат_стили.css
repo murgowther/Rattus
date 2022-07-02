@@ -1,0 +1,59 @@
+    #menu, #menu li {
+        margin: 0;
+        padding: 0;
+    }
+    #menu {
+        text-align: center;
+    }
+
+    #menu li{
+        display:inline-block;
+        text-align: center;
+        width: 30%; /* задаем размер пункта можно в пикселях*/
+    }
+    #menu a {
+        display: block;
+        padding: 15px 25px;
+        color: #fff;
+        font-size:150%;
+        text-decoration: none;
+        background: #000;
+        margin-right: 5px; /* добавляем отступы между пунктами */
+        border: 2px solid white;
+    }
+    #menu a:hover {
+        background: #2f4f4f;
+    }
+.box{
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background: #d4cece;
+  padding: 15px 32px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 32px;
+  font-family: sans;
+  color: black;
+}
+.txt{
+  text-align: center;
+  margin-top: 60px;
+  font-size: 32px;
+  font-family: sans;
+
+}
+.result{
+   margin: 0 auto;
+  margin-top: 50px;
+   width: 1200px;
+  height: 500px;
+  background-color: white;
+  border: 3px solid black;
+}
+.res{
+  color: black;
+    font-size: 32px;
+  font-family: sans;
+}

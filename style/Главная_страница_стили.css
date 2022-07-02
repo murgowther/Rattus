@@ -1,0 +1,75 @@
+.wrapper {
+  position: absolute;
+  width: 460px;
+  height: 670px;
+  margin-right: 11%;
+  margin-bottom: 0%;
+  margin-top: -5%;
+  margin-left: 1%;
+  float:right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 460px;
+  height: 670px;
+  position: relative;
+  perspective: 1000px;
+}
+.front, .back {
+  position: absolute;
+  width: 460px;
+  height: 670px;
+  margin-right: 11%;
+  margin-bottom: 0%;
+  margin-top: -5%;
+  margin-left: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  backface-visibility: hidden;
+  background-color: #fff;
+ }
+.front img {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+}
+.back {
+  transform: rotateY(180deg);
+}
+.card:hover .front {
+  transform: rotateY(180deg);}
+.card:hover .back {
+  transform: rotateY(360deg);}
+  .button
+ {    
+background-color: #1e2124;
+border: yes;
+color: 	#979997;
+padding: 12px 75px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 26px;
+margin: 10px 6px;
+cursor: pointer;
+border: 2px solid #979997; 
+}
+.FONT
+ {    
+color: 	white;
+font-size: 56px;
+margin-right: 5%; 
+margin-bottom: 0% ;
+margin-top: 12% ;
+margin-left: 10% ;
+width: 30%
+}
+.Mark 
+{
+font-size: 36px;
+font-family:Palatino;
+}
